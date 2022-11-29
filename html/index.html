@@ -1,0 +1,57 @@
+<HTML>
+
+<HEAD>
+    <TITLE>BezNazwyMovies</TITLE>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <SCRIPT src="../js/script.js" LANGUAGE="JavaScript"></SCRIPT>
+</HEAD>
+
+<BODY>
+    <div class="logo">
+        <a href="index.html"><img src="logo.png" class="logoimg"></a>
+        <a href="https://www.themoviedb.org"><img src="themoviedblogo.png" class="tmdblogoimg"></a>
+        <a href="form.html">
+            <h4>Add your movie!</h4>
+        </a>
+    </div>
+    <nav id="sort">
+        <input type="button" value="Action" onclick="SortIsAction()">
+        <input type="button" value="Adventure" onclick="SortIsAdventure()">
+        <input type="button" value="Animation" onclick="SortIsAnimation()">
+        <input type="button" value="Comedy" onclick="SortIsComedy()">
+        <input type="button" value="Crime" onclick="SortIsCrime()">
+        <input type="button" value="Documentary" onclick="SortIsDocumentary()">
+        <input type="button" value="Drama" onclick="SortIsDrama()">
+        <input type="button" value="Family" onclick="SortIsFamily()">
+        <input type="button" value="Fantasy" onclick="SortIsFantasy()">
+        <input type="button" value="History" onclick="SortIsHistory()">
+        <input type="button" value="Horror" onclick="SortIsHorror()">
+        <input type="button" value="Music" onclick="SortIsMusic()">
+        <input type="button" value="Mystery" onclick="SortIsMystery()">
+        <input type="button" value="Romance" onclick="SortIsRomance()">
+        <input type="button" value="Science fiction" onclick="SortIsScienceFiction()">
+        <input type="button" value="TV movies" onclick="SortIsTVMovie()">
+        <input type="button" value="Thriller" onclick="SortIsThriller()">
+        <input type="button" value="War" onclick="SortIsWar()">
+        <input type="button" value="Western" onclick="SortIsWestern()">
+    </nav>
+    <br> <br>
+
+    <div id="sorthehe">
+    </div>
+
+    <div class="wrap" id="wrap">
+        <div class="search">
+            <input type="text" class="searchTerm" id="keyword" placeholder="What are you looking for?">
+            <button type="submit" class="searchButton" onclick="searchKeyword()">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+    <div id="box1"></div>
+    <div id="box2"></div>
+
+</BODY>
+
+</HTML>
